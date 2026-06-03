@@ -48,8 +48,6 @@ This project is a customizable template for building and deploying AI-powered do
     - [Via the HTTP Trigger](#via-the-http-trigger)
     - [Via the Azure Storage queue](#via-the-azure-storage-queue)
 - [FAQ](#faq)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Why use this project?
 
