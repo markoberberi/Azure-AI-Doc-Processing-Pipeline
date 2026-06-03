@@ -76,7 +76,6 @@ This project provides the techniques and patterns to combine the capabilities of
 ![Azure AI Document Processing Pipeline](./assets/Flow.png)
 
 This approach takes advantage of the following techniques for document data processing:
-
 - [Document Classification with Azure OpenAI's GPT-4o Vision Capabilities](https://github.com/Azure-Samples/azure-ai-document-processing-samples/blob/main/samples/python/classification/document-classification-gpt-vision.ipynb)
 - [Document Extraction using Multi-Modal (Text and Vision) Capabilities combining Azure AI Document Intelligence and Azure OpenAI's GPT-4o](https://github.com/Azure-Samples/azure-ai-document-processing-samples/blob/main/samples/python/extraction/multimodal/document-extraction-gpt-text-and-vision.ipynb)
 
@@ -490,8 +489,4 @@ For Azure AI Document Intelligence, confidence scores are automatically calculat
 
 > [!NOTE]
 > See the [`document_intelligence_confidence`](./src/AIDocumentPipeline/shared/confidence/document_intelligence_confidence.py) module for the implementation of calculating the confidence score for the Azure AI Document Intelligence model using a structured output.
-
-### I deployed with network isolation, how can I access the resources?
-
-When deploying with network isolation, you can access the Azure resources using either the deployed VPN Gateway or Bastion host. The VPN Gateway allows you to connect to the Azure resources using a VPN client, while the Bastion host allows you to connect to a jumpbox VM in the Azure environment using the Azure portal.
 
